@@ -12,8 +12,8 @@
 - whatever illustrations or figures you create. Also include a 1-3 pages of text 
   (you should refer to your illustrations) explaining.
   
-   ![myRobot](Assignment/src/hw3/myRobot.png)
-   ![myRobotPic](Assignment/src/hw3/myRobotPic.png)
+   ![myRobot](https://github.com/YixianLiu97/2020springAI/blob/master/myRobot.png)
+   ![myRobotPic](https://github.com/YixianLiu97/2020springAI/blob/master/myRobotPic.jpeg)
    
     For myRobot.png(state chart): 
         From the state chart, my 
