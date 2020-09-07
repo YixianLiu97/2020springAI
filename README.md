@@ -39,7 +39,13 @@ The goal for this robot is to flatten the Indianapolis.
   - myRobot appearance
    ![myRobotPic](https://github.com/YixianLiu97/2020springAI/blob/master/myRobotPic.jpeg)
    
-     The appearance of my robot is like a airship.
+     The appearance of my robot is like an airship. Besides the function of flying, the 
+     main body of the airship is a big container for fuel which can help the fire to grow, 
+     and there are two guns at the head of the airship and at the end of the airship. 
+     The one at the top is a gas gun(fuel gun) that sprinkles fuel when the agent decides 
+     to executed "sprinkle the area with gas" and the one at the end is a fire gun that can 
+     ignite when the agent decides to executed "ignite the area".  At the outside of the 
+     airship body, it has several cameras to check the map and measures the area size.
         
     
 - how your robot works.
