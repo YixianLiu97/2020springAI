@@ -12,14 +12,17 @@
 - whatever illustrations or figures you create. Also include a 1-3 pages of text 
   (you should refer to your illustrations) explaining.
   
+  - myRobot state chart
    ![myRobot](https://github.com/YixianLiu97/2020springAI/blob/master/myRobot.png)
+   
+     - From the state chart, my robot can use GPS and the camera for the sensors.  
+  
+   
+  - myRobot appearance
    ![myRobotPic](https://github.com/YixianLiu97/2020springAI/blob/master/myRobotPic.jpeg)
    
-    For myRobot.png(state chart): 
-        From the state chart, my 
-    
-    For myRobotPic(the appearance image):
-        nfkwunifjnb
+     - the appearance of my robot is like a airship.
+        
     
 - how your robot works.
 
