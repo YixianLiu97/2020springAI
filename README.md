@@ -117,4 +117,11 @@ The goal for this robot is to flatten the Indianapolis.
    
 ## For Test The Agent
 
-- To test the agent, we can try use it to destroy a smaller area with fuel and fire.
+- To test the agent, we can try to use it to destroy a smaller area with fuel and fire. 
+  For example, we can try to destroy a small building in a remote area where is nobody 
+  living to test the oil gun and fire gun works. Then we can increase the area and test 
+  will the agent check the map until all the areas are in the fire. If the robot passes 
+  both tests, it means it can destroy the area with guns and complete work when all the 
+  areas in the fire. Then we can test both functions together when the farmland is empty 
+  in the late fall. Because the farmer will burn the farmland with fire sometimes and we 
+  can test our robots with this chance.
