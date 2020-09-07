@@ -1,13 +1,14 @@
 # Flatten Indianapolis
 
+The goal for this robot is to flatten the Indianapolis. 
 
 
-# Author
+## Author
 
 - Yixian Liu
 
 
-# Homework 3 Questions
+## Homework 3 Questions
 
 - whatever illustrations or figures you create. Also include a 1-3 pages of text 
   (you should refer to your illustrations) explaining.
@@ -15,7 +16,8 @@
   - myRobot state chart
    ![myRobot](https://github.com/YixianLiu97/2020springAI/blob/master/myRobot.png)
    
-     - From the state chart, my robot can use GPS and the camera for the sensors.  
+     - the state chart has two part, the environment and the agent. The sensor gets the 
+     
   
    
   - myRobot appearance
@@ -26,7 +28,15 @@
     
 - how your robot works.
 
-    - 
+    - When the robot starts and flies in the low-level sky of Indianapolis. it will check 
+    the city with the GPS and its cameras that is the city in the fire. If the city is not 
+    in the fire, my robot will start to destroy Indianapolis with fuel and fire.First, it 
+    will scan the area and see how big it is. If the area is small, then it will ignite the 
+    area with fire directly. If the area is over five acres of land, then it will sprinkle 
+    the area with fuel and ignite the area. It will go over then the whole map once first, 
+    and then check the city with cameras to make sure the whole city is in the fire. If some 
+    part of the city is not in the fire, then it will go to the area and do the destroy part 
+    again.
 
 - the P, E, A, S parts of your robot.
 
@@ -80,4 +90,4 @@
   
 - what type of agent (simple reflex, model-based, goal-based, or utility-based) is it? 
 
-    My robot is **goal-based** agent. 
+   - My robot is **goal-based** agent. 
