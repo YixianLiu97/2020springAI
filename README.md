@@ -16,7 +16,7 @@ The goal for this robot is to flatten the Indianapolis.
   - myRobot state chart
    ![myRobot](https://github.com/YixianLiu97/2020springAI/blob/master/myRobot.png)
    
-     - the state chart has two part, the environment and the agent. The sensor gets the 
+     - the state chart has two part, the environment and the agent. The sensor gets 
      
   
    
