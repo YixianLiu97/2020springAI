@@ -16,14 +16,30 @@ The goal for this robot is to flatten the Indianapolis.
   - myRobot state chart
    ![myRobot](https://github.com/YixianLiu97/2020springAI/blob/master/myRobot.png)
    
-     - the state chart has two part, the environment and the agent. The sensor gets 
-     
+     The state chart has two-part, the environment and the agent. The sensor gets 
+     the information from the outside and the actuator returns the actions from the 
+     agent. First of all, there are three main questions and decisions for my robot. 
+     Is the whole city in the fire? Is the area huge? Is there any area left not in 
+     the fire? When it starts working, the robot will go the "check the map" state, 
+     when it gets the result from GPS and make a decision, it will go to the "destroy 
+     the city" state or the "work complete" state. 
+
+     For the "destroy the city" state, it will fly to the area and then check the second 
+     question with the "scan the area" state. If the area is small, then the action "ignite 
+     the fire" will be executed by the actuator. If the are is huge, then the action 
+     "sprinkle the area will gas and ignite the area will be executed." After every time 
+     the agent finish destroys the area,  it should go back to "check the map" again to 
+     make sure flatten the Indianapolis until the whole city is in the fire and the work 
+     complete.
+
+     For the "work complete" state,  it will be executed the action "return home" by 
+     the actuator.     
   
    
   - myRobot appearance
    ![myRobotPic](https://github.com/YixianLiu97/2020springAI/blob/master/myRobotPic.jpeg)
    
-     - the appearance of my robot is like a airship.
+     The appearance of my robot is like a airship.
         
     
 - how your robot works.
@@ -91,3 +107,8 @@ The goal for this robot is to flatten the Indianapolis.
 - what type of agent (simple reflex, model-based, goal-based, or utility-based) is it? 
 
    - My robot is **goal-based** agent. 
+   
+   
+## For Test The Agent
+
+- To test the agent, we can try use it to destroy a smaller area with fuel and fire.
